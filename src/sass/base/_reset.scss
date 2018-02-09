@@ -1,0 +1,19 @@
+html {
+    font-size: 75%;
+  }
+  
+  @media #{$medium-up} {
+      html {
+          font-size: 95%;
+      }
+  }
+  
+  @media #{$large-up} {
+      html {
+          font-size: 100%;
+      }
+  }
+  
+  body{
+      margin:0;
+  }

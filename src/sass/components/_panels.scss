@@ -1,0 +1,25 @@
+.about-panel{
+    background-color: $brand-primary-color;
+    text-align: center;
+    text-decoration: none;
+    color: text-color-from-background($brand-primary-color);
+    padding: 1rem 2rem;
+    @extend %clickable;
+    
+    h2 {        
+        margin: 0;
+        
+        
+        span{
+            display: block;
+            font-size: 2rem;
+            padding: .5em 0;
+            color: $brand-primary-color-contrast;    
+        }
+    }
+    
+    &:hover {
+        background-color: lighten($brand-primary-color, 10%);
+        @include prefix(transition, .2s ease-in-out, webkit moz o);
+    }
+}

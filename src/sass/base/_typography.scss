@@ -1,0 +1,10 @@
+﻿.main-header {
+    font-size: rem-calc(64px);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+        
+    @extend %center-horizontal;
+    
+    font-weight: bold;
+    color: $brand-primary-color;
+}
