@@ -1,3 +1,5 @@
+A demo showing the benefits of using sass over css in angular development. Based on https://github.com/FarronF/sass-demo
+
 # SassDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
